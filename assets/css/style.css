@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100:800&family=Roboto:wght@100;800&display=swap');
 
 body {
-    width: 80%;
     background: #FDFEFF;
     margin: 0 auto;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #636C79;
 }
 
 .customer_box span::before{
@@ -64,10 +67,13 @@ nav > column {
 
 /* nav */
 nav {
+    margin: 0 5%;
+    padding: 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
+    background-color: #636C79;
 }
 
 nav ul {
@@ -94,24 +100,33 @@ nav ul li:first-child {
 .list_item a {
     list-style: none;
     text-decoration: none;
-    color: gray
+    color: #fff;
 }
 
 .register-now a {
     list-style: none;
     text-decoration: none;
-    color: #2B9FF3;
+    color: #fff;
 }
 
 .register-now {
-    border: 2px solid #2B9FF3;
-    color: #2B9FF3;
+    border: 1px solid #fff;
+    color: #fff;
     padding: 15px;
     width: 150px;
-    color: black;
-    border-radius: 20px;
+    color: #fff;
     text-align: center;
     font-weight: 600;
+}
+
+.submit {
+    float: right;
+    width: 100px;
+    background: #8BB7A2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 0;
 }
 
 /* title */
@@ -121,6 +136,8 @@ h1 {
     font-weight: bold;
 }
 
+
+
 /* main  */
 
 .main {
@@ -129,7 +146,43 @@ h1 {
 }
 
 .title-box {
-    flex: 1;
+    margin: auto 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #636C79;
+    color: white;
+    align-items: center;
+}
+
+.title-box h1 {
+    font-size: 62px;
+}
+
+.title-box p {
+    color: #fff;
+}
+
+.title-box > .leftbox {
+    text-align: center;
+    flex: 0.5;
+}
+
+.title-box > .rightbox {
+    float: left;
+    flex: 0.5;
+}
+
+.emailbox {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+}
+
+.emailbox input {
+    border: 0;
+    font-size: 14px;
+    padding: 20px;
 }
 
 .qa-image {
@@ -145,9 +198,8 @@ h1 {
 .services-list { 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .services_box {
@@ -155,6 +207,11 @@ h1 {
     padding: 10px;
     margin: 20px;
 }
+
+.services_box h2 {
+    font-size: 42px;
+}
+
 
 .services_box p {
     color: gray;
@@ -180,14 +237,12 @@ p {
     padding-bottom: 20px;
 }
 
-.services-title {
-   display: flex;
-    justify-content: center;
-    align-items: center;
+.services {
+    text-align: center;
 }
 
+
 .services-title h1 {
-    width: 65%;
     padding: 50px;
 }
 
@@ -201,14 +256,45 @@ p {
 }
 
 .pricing {
-    background: #2B9FF3;
-    color: white;
     padding: 50px;
 }
 
 .pricing h1 {
-    text-align: center;
-    padding: 50px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.service_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_box > .left {
+    flex: 1;
+    padding: 100px;
+}
+
+.service_box h2 {
+    font-size: 42px;
+}
+
+.service_box > .right {
+    flex: 1;
+}
+
+.service_box img {
+    width: 70%;
+    flex: 1;
+}
+
+.lets-talk {
+    background: #8BB7A2;
+    color: white;
+    border: 0;
+    padding: 20px;
+    font-size: 18px;
+    width: 200px;
 }
 
 .price_list_boxes {
@@ -318,10 +404,39 @@ p {
     border-radius: 10px;
 }
 
+.team_box {
+    margin: auto 5%;
+}
+
+.team-title {
+    display: flex;
+    width: 100%;
+}
+
+.team_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team_list img {
+    height: 500px;
+}
+
 footer {
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: baseline;
+}
+
+
+footer nav {
+    background-color: #000;
 }
 
 .column-list ul {
@@ -354,12 +469,17 @@ footer > nav {
         font-size: 24px;
     }
 
-    body{
-        margin: 5% auto;
-    }
 
     nav ul{
         display: none;
+    }
+
+    .fa-bars {
+        color: #fff;
+    }
+
+    .title-box h1 {
+        font-size: 32px;
     }
 
     .main {
@@ -371,6 +491,14 @@ footer > nav {
         width: 100%;
     }
 
+    .emailbox {
+        background-color: white;
+        padding: 20px;
+        width: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
     .qa-image {
         display: flex;
         flex-direction: column;
@@ -380,7 +508,7 @@ footer > nav {
     .title-box {
         flex: 1;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .bar {
@@ -394,6 +522,20 @@ footer > nav {
         flex-direction: column;
     }
 
+    .pricing {
+        padding: 20px;
+    }
+
+    .services-list {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .services_box h2 {
+        font-size: 28px;
+    }
+
     .services_box {
         width: 95%;
         padding: 10px;
@@ -404,6 +546,17 @@ footer > nav {
         display: flex;
         flex-direction: column-reverse;
         flex: 1;
+    }
+
+    .services img {
+        width: 80%;
+    }
+
+    .team_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
     /* pricing mobile screen */
@@ -436,6 +589,10 @@ footer > nav {
     height: auto;
 }
 
+    .services img {
+        width: 100%;
+    }
+
 
 .register_section {
     background: #2CA7F4;
@@ -450,20 +607,55 @@ footer > nav {
     border-radius: 10px;
 }
 
-.column-list {
-    display: none;
-}
+    .column-list {
+        display: none;
+    }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    padding: 20px;
-    text-align: center;
-}
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding: 20px;
+        text-align: center;
+    }
 
     .title_content {
         float: left;
+        width: 100%;
+    }
+
+    .services-title h1 {
+        padding: 20px;
+    }
+
+    .service_box > .left {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .service_box h2 {
+        font-size: 42px;
+    }
+
+    .service_box > .right {
+        flex: 1;
+    }
+
+    .service_box img {
+        width: 70%;
+        flex: 1;
+    }
+
+    .service_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .team-title {
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
 }

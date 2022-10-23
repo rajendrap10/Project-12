@@ -1,4 +1,4 @@
-## JSFS (Project 11)
+## JSFS (Project 12)
 ---
 ![Rajendra Pandey, Project](https://img.shields.io/badge/Rajendra%20Pandey-FSJS-orange)
 ![ineuro, lco](https://img.shields.io/badge/iNeuron-LCO-green)
@@ -7,7 +7,7 @@
 
 Hi
 
-This is a FSJS Live Class Project No.11 Repo. In this project, I have learn a lot a new HTML & CSS properties. I have written good amount of code lenght and made responsive too. This project have mulitple sections and modern web page screen.
+This is a FSJS Live Class Project No.12 Repo. In this project, I have learn a lot a new HTML & CSS properties. I have written good amount of code lenght and made responsive too. This project have mulitple sections and modern web page screen.
 I have used flex, positions, background color, navigations and orther HTML & CSS properties.
 
 I would like to say Thankyou my instructor `Hitesh Choudhary` for the guiding, mentoring and pushing me hard so that I can learn and develop this project.
@@ -18,7 +18,7 @@ I would like to say Thankyou my instructor `Hitesh Choudhary` for the guiding, m
 
 ### Live Link :
 
-> [Live Url](https://rajendra-project-11.netlify.app/)
+> [Live Url](https://rajendra-project-12.netlify.app/)
 
 
 ### Mockups
